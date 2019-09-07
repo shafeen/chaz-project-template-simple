@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon -e js,pug,html,json app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/shafeen/chaz-project-tempate-simple#readme",
   "dependencies": {
-    "chaz-js": "^0.4.3"
+    "chaz-js": "^0.4.3",
+    "config": "^3.2.2",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
